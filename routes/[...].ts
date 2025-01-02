@@ -1,5 +1,5 @@
 export default defineEventHandler(() => {
-const baseUrl = process.env.NODE_ENV === 'production' ? '/nitro-api' : '';
+const baseUrl = process.env.NODE_ENV === 'development' ?  '' : '/nitro-api';
 
 return `
 <h2>API Routes:</h2>
