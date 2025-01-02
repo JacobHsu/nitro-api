@@ -44,6 +44,8 @@ jobs:
 
     # Specify runner + deployment step
     runs-on: ubuntu-latest
+    env:
+      NODE_ENV: production
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
