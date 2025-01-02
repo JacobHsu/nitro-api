@@ -1,10 +1,12 @@
 export default defineEventHandler(() => {
-  return `
+const baseUrl = process.env.NODE_ENV === 'production' ? '/nitro-api' : '';
+
+return `
 <h2>API Routes:</h2>
 <ul>
-<li><a href="/api/hello">/api/hello</a></li>
-<li><a href="/api/hello/world">/api/hello/world</a></li>
-<li><a href="/api/test">/api/test</a></li>
+<li><a href="${baseUrl}/api/hello">${baseUrl}/api/hello</a></li>
+<li><a href="${baseUrl}/api/hello/world">${baseUrl}/api/hello/world</a></li>
+<li><a href="${baseUrl}/api/test">${baseUrl}/api/test</a></li>
 </ul>
 `;
 });
