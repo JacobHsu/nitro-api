@@ -9,3 +9,5 @@ You can find more examples in the Nitro repository: [nitrojs/nitro/examples](htt
 
 examples/[hello-world](https://github.com/nitrojs/nitro/tree/main/examples/hello-world)  
 examples/[api-routes](https://github.com/nitrojs/nitro/tree/main/examples/api-routes)  
+
+[Nitro deployments](https://github.com/nitrojs/nitro-deploys/tree/main)
