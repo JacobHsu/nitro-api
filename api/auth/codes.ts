@@ -2,7 +2,7 @@ import { verifyAccessToken } from '~/utils/jwt-utils';
 import { unAuthorizedResponse, useResponseSuccess } from '~/utils/response';
 import { MOCK_CODES } from '~/utils/mock-data';
 
-export default eventHandler((event) => {
+export default defineEventHandler((event) => {
   const userinfo = verifyAccessToken(event);
   if (!userinfo) {
     return unAuthorizedResponse(event);
