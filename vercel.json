@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/nitro-api/api",
-      "destination": "/routes/api"
+      "destination": "/server/api"
     }
   ]
 }
