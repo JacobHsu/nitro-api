@@ -11,4 +11,6 @@ examples/[hello-world](https://github.com/nitrojs/nitro/tree/main/examples/hello
 examples/[api-routes](https://github.com/nitrojs/nitro/tree/main/examples/api-routes)  
 examples/[custom-error-handler](https://github.com/nitrojs/nitro/tree/main/examples/custom-error-handler)  
 
-[Nitro deployments](https://github.com/nitrojs/nitro-deploys/tree/main)
+[Nitro deployments](https://github.com/nitrojs/nitro-deploys/tree/main)  
+
+vue-vben-admin /apps/[backend-mock](https://github.com/vbenjs/vue-vben-admin/tree/main/apps/backend-mock)  
