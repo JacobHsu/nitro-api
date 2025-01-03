@@ -8,6 +8,8 @@ return `
 <li><a href="${baseUrl}/api/hello/world">${baseUrl}/api/hello/world</a></li>
 <li><a href="${baseUrl}/api/test">${baseUrl}/api/test</a></li>
 <li><a href="${baseUrl}/api/auth/codes">/api/auth/codes</a></li>
+<li>https://nitro-api.vercel.app<a href="/api/hello">/api/hello</a></li>
+<li>https://nitro-api.vercel.app<a href="/api/test">/api/test</a></li>
 </ul>
 `;
 });
