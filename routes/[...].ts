@@ -8,6 +8,7 @@ return `
 <li><a href="${baseUrl}/api/hello/world">${baseUrl}/api/hello/world</a></li>
 <li><a href="${baseUrl}/api/test">${baseUrl}/api/test</a></li>
 <li><a href="${baseUrl}/api/auth/codes">/api/auth/codes</a></li>
+<li><a href="${baseUrl}/api/auth/hi">/api/auth/hi</a></li>
 </ul>
 `;
 });
