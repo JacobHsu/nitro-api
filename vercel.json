@@ -1,5 +1,11 @@
 {
   "github": {
     "silent": true
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/nitro-api/api",
+      "destination": "/routes/api"
+    }
+  ]
 }
