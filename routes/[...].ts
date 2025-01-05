@@ -10,6 +10,7 @@ return `
 <li><a href="${baseUrl}/api/auth/codes">/api/auth/codes</a></li>
 <li>https://nitro-api.vercel.app<a href="/server/hello">/server/hello</a></li>
 <li>https://nitro-api.vercel.app<a href="/server/test">/server/test</a></li>
+<li><a href="/auth/codes">/auth/codes</a></li>
 </ul>
 `;
 });
