@@ -7,6 +7,7 @@ return `
 <li><a href="/server/hello/world">/server/hello/world</a></li>
 <li><a href="/server/test">/server/test</a></li>
 <li><a href="/server/auth/codes">/server/auth/codes</a></li>
+<li><a href="/server/user/info">/server/user/info</a></li>
 </ul>
 `;
 });
