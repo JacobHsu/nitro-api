@@ -33,18 +33,18 @@ export const MOCK_USERS: UserInfo[] = [
 export const MOCK_CODES = [
   // super
   {
-    codes: ['AC_100100', 'AC_100110', 'AC_100120', 'AC_100010'],
-    username: 'vben',
+    codes: ["AC_100100", "AC_100110", "AC_100120", "AC_100010"],
+    username: "jacob",
   },
   {
     // admin
-    codes: ['AC_100010', 'AC_100020', 'AC_100030'],
-    username: 'admin',
+    codes: ["AC_100010", "AC_100020", "AC_100030"],
+    username: "admin",
   },
   {
     // user
-    codes: ['AC_1000001', 'AC_1000002'],
-    username: 'jack',
+    codes: ["AC_1000001", "AC_1000002"],
+    username: "jack",
   },
 ];
 

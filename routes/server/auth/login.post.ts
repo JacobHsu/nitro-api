@@ -3,7 +3,11 @@ import {
   setRefreshTokenCookie,
 } from '~/utils/cookie-utils';
 import { generateAccessToken, generateRefreshToken } from '~/utils/jwt-utils';
-import { forbiddenResponse, useResponseSuccess } from "~/utils/response";
+import {
+  forbiddenResponse,
+  useResponseSuccess,
+  useResponseError,
+} from "~/utils/response";
 import { MOCK_USERS } from "~/utils/mock-data";
 
 export default defineEventHandler(async (event) => {
