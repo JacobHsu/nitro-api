@@ -5,7 +5,7 @@ export default defineNitroConfig({
   errorHandler: "~/error",
   devErrorHandler: errorHandler,
   routeRules: {
-    "/api/**": {
+    "/server/**": {
       cors: true,
       headers: {
         "Access-Control-Allow-Credentials": "true",
