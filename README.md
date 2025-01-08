@@ -14,3 +14,13 @@ examples/[custom-error-handler](https://github.com/nitrojs/nitro/tree/main/examp
 [Nitro deployments](https://github.com/nitrojs/nitro-deploys/tree/main)  
 
 vue-vben-admin /apps/[backend-mock](https://github.com/vbenjs/vue-vben-admin/tree/main/apps/backend-mock)  
+
+
+apps\web-antd\`.env.production`
+
+```bash
+VITE_BASE=/
+
+# 接口地址
+VITE_GLOB_API_URL=https://nitro-api.vercel.app/server
+```
